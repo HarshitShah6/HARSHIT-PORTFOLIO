@@ -1,0 +1,35 @@
+export const impactStats = [
+  {
+    id: 'lighthouse',
+    label: 'Lighthouse Performance',
+    from: 30,
+    to: 93,
+    suffix: '',
+    decimals: 0,
+  },
+  {
+    id: 'fcp',
+    label: 'First Contentful Paint',
+    from: 1.8,
+    to: 0.6,
+    suffix: 's',
+    decimals: 1,
+  },
+  {
+    id: 'si',
+    label: 'Speed Index',
+    from: 8.5,
+    to: 1.4,
+    suffix: 's',
+    decimals: 1,
+  },
+  {
+    id: 'platforms',
+    label: 'Business-critical React platforms shipped',
+    from: 0,
+    to: 8,
+    suffix: '+',
+    decimals: 0,
+    detail: 'ERP Inventory, KYC, Finance, Visitor Management, SaaS, customer-facing',
+  },
+] as const
